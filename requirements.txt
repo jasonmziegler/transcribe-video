@@ -1,0 +1,6 @@
+faster-whisper==1.1.1
+requests>=2.31
+# CUDA 12 runtime libraries so the GPU works without a manual CUDA/cuDNN install.
+# These are ignored on CPU-only runs.
+nvidia-cublas-cu12==12.6.4.1
+nvidia-cudnn-cu12==9.6.0.74

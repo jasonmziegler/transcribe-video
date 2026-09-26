@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Downloaded Whisper models (large; fetch with download_model.py)
+models/
+
+# Local tool settings
+.claude/
+
+# Transcription outputs and media
+*.mp4
+*.mkv
+*.mov
+*.mp3
+*.wav
+*.m4a
